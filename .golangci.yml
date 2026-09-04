@@ -19,7 +19,7 @@ linters:
     - errname
     - errorlint
     - exhaustive
-    - exhaustruct
+    - exhaustruct_v5
     - exptostd
     - fatcontext
     - forbidigo
@@ -37,7 +37,7 @@ linters:
     - godox
     - goheader
     - gomoddirectives
-    - gomodguard
+    - gomodguard_v2
     - goprintffuncname
     - gosec
     - gosmopolitan
@@ -161,10 +161,13 @@ linters:
           - forbidigo
           - funlen
           - gocognit
+          - goconst
           - gocyclo
+          - gosmopolitan
           - lll
           - maintidx
           - mnd
+          - paralleltest
           - staticcheck
           - testpackage
           - varnamelen
